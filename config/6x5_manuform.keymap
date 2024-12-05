@@ -35,21 +35,21 @@
 
         bluetooth {
             bindings = <
-&bt BT_CLR        &bt BT_SEL 0       &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none      &none          &none            &none                 &none                  &none
-&kp F1            &kp F2             &kp F3             &kp F4        &kp F5        &kp F6        &kp F7     &kp F8         &kp F9           &kp F10               &kp F11                &kp F12
-&kp GRAVE         &kp EXCLAMATION    &kp AT_SIGN        &kp HASH      &kp DOLLAR    &kp PERCENT   &kp CARET  &kp AMPERSAND  &kp KP_MULTIPLY  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE
-&ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &none         &none         &none         &none      &kp MINUS      &kp KP_PLUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
-&none             &none              &none              &none         &none         &none         &none      &kp LG(LS(S))  &none            &none                 &none                  &none
+&bt BT_CLR        &bt BT_SEL 0       &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                 &none          &none            &none                 &none                  &none
+&kp F1            &kp F2             &kp F3             &kp F4        &kp F5        &kp F6        &kp F7                &kp F8         &kp F9           &kp F10               &kp F11                &kp F12
+&kp GRAVE         &kp EXCLAMATION    &kp AT_SIGN        &kp HASH      &kp DOLLAR    &kp PERCENT   &kp CARET             &kp AMPERSAND  &kp KP_MULTIPLY  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE
+&ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &none         &none         &none         &none                 &kp MINUS      &kp KP_PLUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
+&none             &none              &none              &none         &none         &none         &kp C_BRIGHTNESS_INC  &kp LG(LS(S))  &kp C_AC_BACK    &kp C_BRIGHTNESS_DEC  &kp LA(F9)             &none
             >;
         };
 
         media {
             bindings = <
-&rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_BRI   &rgb_ug RGB_BRD  &trans  &trans          &trans        &trans            &trans             &trans
-&trans           &trans           &trans           &trans           &trans            &trans           &trans  &trans          &trans        &trans            &trans             &trans
-&trans           &trans           &trans           &trans           &trans            &trans           &none   &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &trans
-&trans           &trans           &trans           &trans           &trans            &trans           &trans  &kp HOME        &kp END       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans           &kp C_NEXT       &trans           &trans           &kp C_PLAY_PAUSE  &trans           &trans  &none           &trans        &trans            &trans             &trans
+&rgb_ug RGB_TOG    &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_BRI   &rgb_ug RGB_BRD  &trans  &trans          &trans        &trans            &trans             &trans
+&trans             &trans           &trans           &trans           &trans            &trans           &trans  &trans          &trans        &trans            &trans             &trans
+&trans             &trans           &trans           &trans           &trans            &trans           &none   &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &trans
+&trans             &trans           &trans           &trans           &trans            &trans           &trans  &kp HOME        &kp END       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp C_VOLUME_DOWN  &kp C_NEXT       &kp C_MUTE       &kp C_PREVIOUS   &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &trans  &none           &trans        &trans            &trans             &trans
             >;
         };
     };
